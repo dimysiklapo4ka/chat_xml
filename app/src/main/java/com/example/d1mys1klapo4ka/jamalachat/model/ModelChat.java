@@ -11,10 +11,10 @@ public class ModelChat {
     private String sms;
     private String userLogin;
 
-    public ModelChat(String sms, String age){
+    public ModelChat(String sms, String userLogin){
 
         this.sms = sms;
-        this.userLogin = age;
+        this.userLogin = userLogin;
     }
 
     public int getId() {

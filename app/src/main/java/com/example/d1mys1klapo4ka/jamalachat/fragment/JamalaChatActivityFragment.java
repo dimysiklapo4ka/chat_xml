@@ -19,7 +19,10 @@ import java.util.ArrayList;
  */
 public class JamalaChatActivityFragment extends Fragment {
 
+    public static final String NIK_NAME = "dimysiklapo4ka";
+
     RecyclerView rvChat;
+
     public JamalaChatActivityFragment() {
     }
 
@@ -43,9 +46,11 @@ public class JamalaChatActivityFragment extends Fragment {
     private ArrayList<ModelChat> modelChat(){
 
         ArrayList<ModelChat> modelChats = new ArrayList<>();
-        modelChats.add(new ModelChat("Макс", "dimysiklapo4ka"));
-        modelChats.add(new ModelChat("Дима", "dimysiklapo4ka"));
-        modelChats.add(new ModelChat("Рома", "dimysiklapo4ka"));
+
+
+        modelChats.add(new ModelChat("Привет", "dimysiklapo4ka"));
+        modelChats.add(new ModelChat("ланешс", "dimysiklapo4ka"));
+        modelChats.add(new ModelChat("эта девка просто пуля, рпорплампивши,рпогпршнвекыекупивнеив", "dimysiklapo4ka"));
         modelChats.add(new ModelChat("Макс", "dimysiklapo4ka"));
         modelChats.add(new ModelChat("Дима", "dimysiklapo4ka"));
         modelChats.add(new ModelChat("Рома", "dimysiklapo4ka"));
@@ -62,4 +67,5 @@ public class JamalaChatActivityFragment extends Fragment {
         return modelChats;
 
     }
+
 }
